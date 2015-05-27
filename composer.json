@@ -1,0 +1,7 @@
+{
+    "name": "voceconnect/janrain-capture",
+    "description": "Janrain Registration and Customer Profile Data Storage",
+    "keywords": ["wordpress"],
+    "license": "APL",
+    "type": "plugin",
+}

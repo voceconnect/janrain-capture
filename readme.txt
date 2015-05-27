@@ -4,7 +4,7 @@ Tags: capture, janrain, sso
 Requires at least: 3.5
 Tested up to: 4.1
 License: APL
-Stable tag: 0.3.0
+Stable tag: 0.3.1
 
 Janrain Registration and Customer Profile Data Storage
 
@@ -103,5 +103,7 @@ Individual blogs can be updated with separate UI settings and a different API Cl
 
 
 == Version History ==
+
+0.3.1 - added composer.json
 
 0.3.0 - add filter on ifolder path, force array in in_array() check to fix lack of initial values on plugin activation
