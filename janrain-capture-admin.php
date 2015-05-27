@@ -777,7 +777,7 @@ ENDSELECT;
 							<select name="{$field['name']}[]" multiple="multiple">
 MSELECT;
 						foreach ( $field['options'] as $option ) {
-							$selected = in_array( $option, $value ) !== false
+							$selected = in_array( $option, (array) $value ) !== false
 								? ' selected="selected"'
 								: '';
 							echo "<option value=\"{$option}\"{$selected}>$option</option>";

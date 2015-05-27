@@ -55,7 +55,7 @@ class JanrainCaptureUi {
 		// check to see if this is a local url and fix path
 		if ( stristr( $this->ifolder, site_url() ) ) {
 			# screens url contains site URL, look for files locally
-			$this->ifolder = ABSPATH . str_replace( site_url() . '/', '', $this->ifolder );
+			$this->ifolder = apply_filters( 'janrain_ifolder_path', ABSPATH . str_replace( site_url() . '/', '', $this->ifolder ), $this->ifolder );
 			$this->local = true;
 			// Check to make sure screens exist, and display an admin error if they do not
 			if ( is_admin() ) {
