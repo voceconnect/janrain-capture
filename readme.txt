@@ -1,10 +1,10 @@
 === Janrain Registration ===
-Contributors: byron-janrain, rebekahgolden
+Contributors: byron-janrain, rebekahgolden, banderon
 Tags: capture, janrain, sso
 Requires at least: 3.5
 Tested up to: 4.1
 License: APL
-Stable tag: 0.2.7
+Stable tag: 0.3.0
 
 Janrain Registration and Customer Profile Data Storage
 
@@ -100,3 +100,8 @@ Example:
 This plugin now fully supports WordPress Multisite. To install proceed as above, however you must Network Enable this plugin. The Janrain Capture administration menu will appear on the Network Admin dashboard.
 
 Individual blogs can be updated with separate UI settings and a different API Client ID through the Janrain Capture administration menu in each blog's dashboard. If no changes are made they will default to the network admin settings.
+
+
+== Version History ==
+
+0.3.0 - add filter on ifolder path, force array in in_array() check to fix lack of initial values on plugin activation
